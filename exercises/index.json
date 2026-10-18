@@ -1,0 +1,692 @@
+[
+  {
+    "id": "E01.01",
+    "chapter": 1,
+    "chapter_title": "Who needs the real numbers?",
+    "kind": "Conceptual",
+    "source_text": "Explain why $\\mathbb{Z}/4\\mathbb{Z}$ fails to be a field, and identify the step in Gaussian elimination that can fail there.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E01.02",
+    "chapter": 1,
+    "chapter_title": "Who needs the real numbers?",
+    "kind": "Computational",
+    "source_text": "Count $|\\operatorname{GL}(2,\\mathbb{F}_3)|$. Then count the lines through the origin in $\\mathbb{F}_3^2$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 1",
+    "output_key": "E01.02"
+  },
+  {
+    "id": "E01.03",
+    "chapter": 1,
+    "chapter_title": "Who needs the real numbers?",
+    "kind": "Structural",
+    "source_text": "Prove rank–nullity over an arbitrary field directly by extending a kernel basis.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E01.04",
+    "chapter": 1,
+    "chapter_title": "Who needs the real numbers?",
+    "kind": "Exploratory",
+    "source_text": "Draw the seven-point Fano plane using the seven nonzero vectors of $\\mathbb{F}_2^3$. Verify that any two distinct points lie on exactly one line.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 1",
+    "output_key": "E01.04"
+  },
+  {
+    "id": "E02.01",
+    "chapter": 2,
+    "chapter_title": "Finite fields: building new alphabets",
+    "kind": "Computational",
+    "source_text": "Construct the full multiplication table of $\\mathbb{F}_4$ and find the inverses of its nonzero elements.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 2",
+    "output_key": "E02.01"
+  },
+  {
+    "id": "E02.02",
+    "chapter": 2,
+    "chapter_title": "Finite fields: building new alphabets",
+    "kind": "Structural",
+    "source_text": "Prove that $a^{p^n}=a$ for every $a\\in\\mathbb{F}_{p^n}$, beginning with the fact that the multiplicative group has $p^n-1$ elements.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E02.03",
+    "chapter": 2,
+    "chapter_title": "Finite fields: building new alphabets",
+    "kind": "Computational",
+    "source_text": "In $\\mathbb{F}_4$, compute the trace and norm of each element to $\\mathbb{F}_2$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 2",
+    "output_key": "E02.03"
+  },
+  {
+    "id": "E02.04",
+    "chapter": 2,
+    "chapter_title": "Finite fields: building new alphabets",
+    "kind": "Conceptual",
+    "source_text": "Explain why $\\mathbb{F}_2^2$ and $\\mathbb{F}_4$ are isomorphic as $\\mathbb{F}_2$-vector spaces but not as rings if the first carries coordinatewise multiplication.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E02.05",
+    "chapter": 2,
+    "chapter_title": "Finite fields: building new alphabets",
+    "kind": "Exploratory",
+    "source_text": "Build $\\mathbb{F}_8$ from $x^3+x+1$. Write the Frobenius orbit of $\\alpha$ and compute its trace.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 2",
+    "output_key": "E02.05"
+  },
+  {
+    "id": "E03.01",
+    "chapter": 3,
+    "chapter_title": "Eigenvalues that do not exist — yet",
+    "kind": "Computational",
+    "source_text": "Verify $A^3=I$ for the opening matrix, and find its eigenvalues over $\\mathbb{F}_4$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 3",
+    "output_key": "E03.01"
+  },
+  {
+    "id": "E03.02",
+    "chapter": 3,
+    "chapter_title": "Eigenvalues that do not exist — yet",
+    "kind": "Conceptual",
+    "source_text": "Give two operators over $\\mathbb{F}_2$ with the same characteristic polynomial $(x+1)^2$, one diagonalizable and one not.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 3",
+    "output_key": "E03.02"
+  },
+  {
+    "id": "E03.03",
+    "chapter": 3,
+    "chapter_title": "Eigenvalues that do not exist — yet",
+    "kind": "Structural",
+    "source_text": "Prove that a polynomial with pairwise distinct roots has a diagonalizable companion matrix over its splitting field.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E03.04",
+    "chapter": 3,
+    "chapter_title": "Eigenvalues that do not exist — yet",
+    "kind": "Exploratory",
+    "source_text": "Over $\\mathbb{F}_3$, investigate the matrix $\\begin{pmatrix}0&-1\\\\1&0\\end{pmatrix}$. Does it acquire eigenvalues over $\\mathbb{F}_9$? What is its order?",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 3",
+    "output_key": "E03.04"
+  },
+  {
+    "id": "E03.05",
+    "chapter": 3,
+    "chapter_title": "Eigenvalues that do not exist — yet",
+    "kind": "Challenge",
+    "source_text": "Explain why finite fields are perfect: show that irreducible polynomials over $\\mathbb{F}_q$ have no repeated roots in an algebraic closure.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E04.01",
+    "chapter": 4,
+    "chapter_title": "Every operator is secretly a module",
+    "kind": "Computational",
+    "source_text": "Determine the invariant factors and minimal polynomial of $\\operatorname{diag}(J_2(0),J_1(0))$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 4",
+    "output_key": "E04.01"
+  },
+  {
+    "id": "E04.02",
+    "chapter": 4,
+    "chapter_title": "Every operator is secretly a module",
+    "kind": "Structural",
+    "source_text": "Verify directly that $\\operatorname{Hom}_{F[x]}(F[x]/(d),F[x]/(d))\\cong F[x]/(d)$.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E04.03",
+    "chapter": 4,
+    "chapter_title": "Every operator is secretly a module",
+    "kind": "Conceptual",
+    "source_text": "Why does one matrix's characteristic polynomial not determine its similarity class?",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E04.04",
+    "chapter": 4,
+    "chapter_title": "Every operator is secretly a module",
+    "kind": "Challenge",
+    "source_text": "Classify, up to similarity over $\\mathbb{F}_2$, all $3\\times3$ nilpotent matrices.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 4",
+    "output_key": "E04.04"
+  },
+  {
+    "id": "E04.05",
+    "chapter": 4,
+    "chapter_title": "Every operator is secretly a module",
+    "kind": "Exploratory",
+    "source_text": "Compare the complexity of classifying one operator with that of classifying two commuting operators. Locate exactly where the PID argument ceases to apply.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E05.01",
+    "chapter": 5,
+    "chapter_title": "Duality, quotients, and universal constructions",
+    "kind": "Conceptual",
+    "source_text": "Explain why a chosen basis gives $V\\cong V^*$ but the isomorphism depends on the basis.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E05.02",
+    "chapter": 5,
+    "chapter_title": "Duality, quotients, and universal constructions",
+    "kind": "Structural",
+    "source_text": "Prove $(V/U)^*\\cong U^\\circ$ without choosing coordinates.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E05.03",
+    "chapter": 5,
+    "chapter_title": "Duality, quotients, and universal constructions",
+    "kind": "Computational",
+    "source_text": "Write the matrix of $T^*$ when $T:\\mathbb{F}_3^2\\to\\mathbb{F}_3^3$ has matrix $\\begin{pmatrix}1&2\\\\0&1\\\\2&2\\end{pmatrix}$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 5",
+    "output_key": "E05.03"
+  },
+  {
+    "id": "E05.04",
+    "chapter": 5,
+    "chapter_title": "Duality, quotients, and universal constructions",
+    "kind": "Structural",
+    "source_text": "Show $V\\otimes_{F} F\\cong V$ using the tensor product universal property.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E05.05",
+    "chapter": 5,
+    "chapter_title": "Duality, quotients, and universal constructions",
+    "kind": "Challenge",
+    "source_text": "Exhibit a nonzero tensor in $\\mathbb{R}^2\\otimes\\mathbb{R}^2$ that cannot be written as a single pure tensor $v\\otimes w$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 5",
+    "output_key": "E05.05"
+  },
+  {
+    "id": "E06.01",
+    "chapter": 6,
+    "chapter_title": "Bilinear forms: geometry changes its accent",
+    "kind": "Computational",
+    "source_text": "Over $\\mathbb{F}_2$, calculate the polar form of $Q(x,y)=x^2+xy+y^2$ and list its zeros.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 6",
+    "output_key": "E06.01"
+  },
+  {
+    "id": "E06.02",
+    "chapter": 6,
+    "chapter_title": "Bilinear forms: geometry changes its accent",
+    "kind": "Structural",
+    "source_text": "Prove that a finite-dimensional nondegenerate alternating form has even-dimensional underlying space, in every characteristic.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E06.03",
+    "chapter": 6,
+    "chapter_title": "Bilinear forms: geometry changes its accent",
+    "kind": "Conceptual",
+    "source_text": "Explain why $A^\\mathsf{T}MA$ classifies forms but $A^{-1}MA$ classifies operators.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E06.04",
+    "chapter": 6,
+    "chapter_title": "Bilinear forms: geometry changes its accent",
+    "kind": "Computational",
+    "source_text": "Determine all one-dimensional isotropic subspaces of the standard symplectic space $\\mathbb{F}_3^2$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 6",
+    "output_key": "E06.04"
+  },
+  {
+    "id": "E06.05",
+    "chapter": 6,
+    "chapter_title": "Bilinear forms: geometry changes its accent",
+    "kind": "Challenge",
+    "source_text": "Show that if $L$ is Lagrangian, then $L=L^\\perp$. What does this suggest about choosing a complementary Lagrangian?",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E07.01",
+    "chapter": 7,
+    "chapter_title": "Tensors, determinants, and Grassmannians",
+    "kind": "Computational",
+    "source_text": "Compute $\\dim\\bigwedge^k\\mathbb{F}_q^5$ for all $0\\le k\\le5$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 7",
+    "output_key": "E07.01"
+  },
+  {
+    "id": "E07.02",
+    "chapter": 7,
+    "chapter_title": "Tensors, determinants, and Grassmannians",
+    "kind": "Structural",
+    "source_text": "Prove that $\\det(ST)=\\det S\\det T$ using top exterior powers.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E07.03",
+    "chapter": 7,
+    "chapter_title": "Tensors, determinants, and Grassmannians",
+    "kind": "Conceptual",
+    "source_text": "Why does $v_1\\wedge v_2=0$ precisely when $v_1,v_2$ are linearly dependent?",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E07.04",
+    "chapter": 7,
+    "chapter_title": "Tensors, determinants, and Grassmannians",
+    "kind": "Computational",
+    "source_text": "Verify the Plücker relation for the plane in $\\mathbb{F}_3^4$ spanned by $(1,0,1,0)$ and $(0,1,0,1)$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 7",
+    "output_key": "E07.04"
+  },
+  {
+    "id": "E07.05",
+    "chapter": 7,
+    "chapter_title": "Tensors, determinants, and Grassmannians",
+    "kind": "Challenge",
+    "source_text": "Compute the rank of the limiting $W$-tensor above by flattening and by direct pure-tensor arguments. Why can flattening alone fail to certify rank three?",
+    "implementation": "partial-demonstration",
+    "command": "la-sensei chapter 7",
+    "output_key": "E07.05_PARTIAL"
+  },
+  {
+    "id": "E08.01",
+    "chapter": 8,
+    "chapter_title": "Symmetry is linear algebra with a group attached",
+    "kind": "Structural",
+    "source_text": "Check directly that $\\overline P$ in the averaging argument commutes with every $\\rho(h)$.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E08.02",
+    "chapter": 8,
+    "chapter_title": "Symmetry is linear algebra with a group attached",
+    "kind": "Computational",
+    "source_text": "List all six invertible $2\\times2$ matrices over $\\mathbb{F}_2$ and identify their permutations of the three nonzero vectors.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 8",
+    "output_key": "E08.02"
+  },
+  {
+    "id": "E08.03",
+    "chapter": 8,
+    "chapter_title": "Symmetry is linear algebra with a group attached",
+    "kind": "Conceptual",
+    "source_text": "State exactly where Maschke's proof fails over $\\mathbb{F}_p$ when $p\\mid|G|$.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E08.04",
+    "chapter": 8,
+    "chapter_title": "Symmetry is linear algebra with a group attached",
+    "kind": "Challenge",
+    "source_text": "Determine the invariant subspaces in the $C_p$ example.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 8",
+    "output_key": "E08.04"
+  },
+  {
+    "id": "E08.05",
+    "chapter": 8,
+    "chapter_title": "Symmetry is linear algebra with a group attached",
+    "kind": "Exploratory",
+    "source_text": "For a given finite symmetry group acting on a data space, count the parameters of an intertwining linear layer by decomposing the representations when Maschke's theorem applies.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E09.01",
+    "chapter": 9,
+    "chapter_title": "Clifford algebras and the spin of geometry",
+    "kind": "Computational",
+    "source_text": "Verify $k^2=-1$ in the quaternion example.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 9",
+    "output_key": "E09.01"
+  },
+  {
+    "id": "E09.02",
+    "chapter": 9,
+    "chapter_title": "Clifford algebras and the spin of geometry",
+    "kind": "Structural",
+    "source_text": "Derive $uv+vu=2B_Q(u,v)$ by expanding $(u+v)^2$.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E09.03",
+    "chapter": 9,
+    "chapter_title": "Clifford algebras and the spin of geometry",
+    "kind": "Computational",
+    "source_text": "Use the Clifford relation to prove $-vwv^{-1}=w-2B_Q(v,w)v/Q(v)$.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E09.04",
+    "chapter": 9,
+    "chapter_title": "Clifford algebras and the spin of geometry",
+    "kind": "Conceptual",
+    "source_text": "Explain why the generator-and-relation definition still makes formal sense in characteristic two, while some of our proofs do not.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E09.05",
+    "chapter": 9,
+    "chapter_title": "Clifford algebras and the spin of geometry",
+    "kind": "Exploratory",
+    "source_text": "Compare $\\operatorname{Cl}(\\mathbb{R}^2,Q)$ for signatures $(2,0)$ and $(0,2)$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 9",
+    "output_key": "E09.05"
+  },
+  {
+    "id": "E10.01",
+    "chapter": 10,
+    "chapter_title": "Lie algebras: infinitesimal symmetry, carefully",
+    "kind": "Structural",
+    "source_text": "Verify the Jacobi identity for commutators by expanding all twelve terms.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E10.02",
+    "chapter": 10,
+    "chapter_title": "Lie algebras: infinitesimal symmetry, carefully",
+    "kind": "Computational",
+    "source_text": "Determine a basis of $\\mathfrak{sl}_2(\\mathbb{F}_3)$ and calculate selected commutators.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 10",
+    "output_key": "E10.02"
+  },
+  {
+    "id": "E10.03",
+    "chapter": 10,
+    "chapter_title": "Lie algebras: infinitesimal symmetry, carefully",
+    "kind": "Conceptual",
+    "source_text": "Why is the matrix exponential unproblematic over $\\mathbb{R}$ but not defined by the same infinite series over $\\mathbb{F}_5$?",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E10.04",
+    "chapter": 10,
+    "chapter_title": "Lie algebras: infinitesimal symmetry, carefully",
+    "kind": "Structural",
+    "source_text": "Show that $\\operatorname{tr}[X,Y]=0$ over any field.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E10.05",
+    "chapter": 10,
+    "chapter_title": "Lie algebras: infinitesimal symmetry, carefully",
+    "kind": "Exploratory",
+    "source_text": "Investigate how $\\mathfrak{sl}_2(\\mathbb{F}_2)$ differs from $\\mathfrak{sl}_2(\\mathbb{R})$, particularly its center.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 10",
+    "output_key": "E10.05"
+  },
+  {
+    "id": "E11.01",
+    "chapter": 11,
+    "chapter_title": "Beyond fields: modules, torsion, and arithmetic",
+    "kind": "Computational",
+    "source_text": "Solve $2x=2$ and $2x=1$ in $\\mathbb{Z}/6\\mathbb{Z}$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 11",
+    "output_key": "E11.01"
+  },
+  {
+    "id": "E11.02",
+    "chapter": 11,
+    "chapter_title": "Beyond fields: modules, torsion, and arithmetic",
+    "kind": "Structural",
+    "source_text": "Explain why $\\mathbb{Z}/5\\mathbb{Z}$ has no $\\mathbb{Z}$-basis.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E11.03",
+    "chapter": 11,
+    "chapter_title": "Beyond fields: modules, torsion, and arithmetic",
+    "kind": "Computational",
+    "source_text": "Compute the Smith normal form and cokernel of $\\begin{pmatrix}2&4\\\\0&6\\end{pmatrix}$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 11",
+    "output_key": "E11.03"
+  },
+  {
+    "id": "E11.04",
+    "chapter": 11,
+    "chapter_title": "Beyond fields: modules, torsion, and arithmetic",
+    "kind": "Conceptual",
+    "source_text": "Why can replacing an integer matrix by the same matrix over $\\Q$ destroy torsion information?",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E11.05",
+    "chapter": 11,
+    "chapter_title": "Beyond fields: modules, torsion, and arithmetic",
+    "kind": "Exploratory",
+    "source_text": "Build the boundary matrix of a triangulated circle and compute its first homology over $\\mathbb{Z}$ and over $\\mathbb{F}_2$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 11",
+    "output_key": "E11.05"
+  },
+  {
+    "id": "E12.01",
+    "chapter": 12,
+    "chapter_title": "Linear algebra without subtraction",
+    "kind": "Computational",
+    "source_text": "Compute the Boolean square of the adjacency matrix of the path $1\\to2\\to3$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 12",
+    "output_key": "E12.01"
+  },
+  {
+    "id": "E12.02",
+    "chapter": 12,
+    "chapter_title": "Linear algebra without subtraction",
+    "kind": "Structural",
+    "source_text": "Prove that min-plus matrix multiplication is associative by rearranging two nested minima.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E12.03",
+    "chapter": 12,
+    "chapter_title": "Linear algebra without subtraction",
+    "kind": "Computational",
+    "source_text": "Verify the stated max-plus eigenpair and explain its two-cycle interpretation.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 12",
+    "output_key": "E12.03"
+  },
+  {
+    "id": "E12.04",
+    "chapter": 12,
+    "chapter_title": "Linear algebra without subtraction",
+    "kind": "Conceptual",
+    "source_text": "Which step of the usual Gaussian elimination algorithm cannot be performed in the Boolean semiring?",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E12.05",
+    "chapter": 12,
+    "chapter_title": "Linear algebra without subtraction",
+    "kind": "Exploratory",
+    "source_text": "Explain how an optimal routing problem can be expressed with a min-plus matrix recurrence.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 12",
+    "output_key": "E12.05"
+  },
+  {
+    "id": "E13.01",
+    "chapter": 13,
+    "chapter_title": "Codes, quantum states, and learned representations",
+    "kind": "Computational",
+    "source_text": "For the displayed $H$, compute the syndrome of an error in bit six and identify the corrected position.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 13",
+    "output_key": "E13.01"
+  },
+  {
+    "id": "E13.02",
+    "chapter": 13,
+    "chapter_title": "Codes, quantum states, and learned representations",
+    "kind": "Structural",
+    "source_text": "Prove that the Hamming code $\\ker H$ has minimum distance at least three.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E13.03",
+    "chapter": 13,
+    "chapter_title": "Codes, quantum states, and learned representations",
+    "kind": "Computational",
+    "source_text": "Over $\\mathbb{F}_7$, encode $f(x)=1+2x+x^2$ at $x=0,1,2,3,4$.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 13",
+    "output_key": "E13.03"
+  },
+  {
+    "id": "E13.04",
+    "chapter": 13,
+    "chapter_title": "Codes, quantum states, and learned representations",
+    "kind": "Conceptual",
+    "source_text": "State precisely why PCA and SVD require a richer structure than rank-nullity.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E13.05",
+    "chapter": 13,
+    "chapter_title": "Codes, quantum states, and learned representations",
+    "kind": "Challenge",
+    "source_text": "For $\\psi=(|00\\rangle+|11\\rangle)/\\sqrt2$, compute the Schmidt coefficients and the reduced density matrix of the first subsystem.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 13",
+    "output_key": "E13.05"
+  },
+  {
+    "id": "E14.01",
+    "chapter": 14,
+    "chapter_title": "The dictionary: one grammar, many worlds",
+    "kind": "Structural",
+    "source_text": "Prove that scalar extension preserves the rank of a matrix.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E14.02",
+    "chapter": 14,
+    "chapter_title": "The dictionary: one grammar, many worlds",
+    "kind": "Conceptual",
+    "source_text": "Find a theorem from real linear algebra that fails over $\\mathbb{F}_2$, and identify the exact missing hypothesis.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E14.03",
+    "chapter": 14,
+    "chapter_title": "The dictionary: one grammar, many worlds",
+    "kind": "Computational",
+    "source_text": "Verify that the determinant of the three Fano columns shown above is zero modulo two but not modulo an odd prime.",
+    "implementation": "worked-computational",
+    "command": "la-sensei chapter 14",
+    "output_key": "E14.03"
+  },
+  {
+    "id": "E14.04",
+    "chapter": 14,
+    "chapter_title": "The dictionary: one grammar, many worlds",
+    "kind": "Exploratory",
+    "source_text": "Choose one construction—quotient, tensor, dual, spectrum, or form—and describe its behavior over $\\mathbb{R}$, $\\mathbb{F}_3$, and $\\mathbb{Z}/6\\mathbb{Z}$.",
+    "implementation": "reader-proof-or-exploration",
+    "command": null,
+    "output_key": null
+  },
+  {
+    "id": "E14.05",
+    "chapter": 14,
+    "chapter_title": "The dictionary: one grammar, many worlds",
+    "kind": "Challenge",
+    "source_text": "Explain why a binary linear code naturally determines a representable matroid, and ask which features of the code are visible in its circuits.",
+    "implementation": "partial-demonstration",
+    "command": "la-sensei chapter 14",
+    "output_key": "E14.05_PARTIAL"
+  }
+]
