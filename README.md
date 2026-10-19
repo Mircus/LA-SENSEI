@@ -1,5 +1,13 @@
 # LA-SENSEI
 
+
+<p align="center">
+  <img src="assets/LA-SENSEI-logo.png" alt="LA-SENSEI logo" width="620"/>
+</p>
+
+<h1 align="center">LA-SENSEI</h1>
+<p align="center"><em>Linear Algebra — One Language, Many Dialects</em></p>
+
 ### Linear Algebra — Structural Experiments, Not Standard Exercises, Illustrated
 
 **Companion repository for *Linear Algebra: One Language, Many Dialects***  
